@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*background-color: hsl(217, 54%, 11%);*/
+}
+
+#main-rectangle {
+  display: flex;
+  width: 320px;
+  height: 550px;
+  margin: auto;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  justify-items: center;
+  align-items: flex-start;
+}
+
+.main-img {
+  max-width: 260px;
+  max-height: 260px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.text-dev {
+  display: grid;
+  grid-template-rows: ;
+}
